@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1759073324
+CharacterBody2D.gd::GDScript::7203852445750974629::1759072837::0::1::::<>CharacterBody2D<><>0<>0<><>::
+green.png::CompressedTexture2D/CompressedTexture2D::4330964426198737398::1759058481::1759058821::1::::<><><>0<>0<>a9230ef2cedd2aae6c3e01b455cf25d0<>res://.godot/imported/green.png-5db815cc8219d4fb24db6968e2796f87.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::9196418169622692181::1759058481::1759058821::1::::<><><>0<>0<>34516f250c2dc114e74349f4a525a8be<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Level.tscn::PackedScene::1872875701070723461::1759072864::0::1::::<><><>0<>0<><>::uid://d4a2wtfyi1ixx::::res://icon.svg<>uid://davunri56lmdh::::res://CharacterBody2D.gd<>uid://b2x7l7e8gcqbe::::res://green.png<>uid://dyxtuncev2wos::::res://Pixel Heart Sprite Sheet 16x16.png
+pixel heart empty.png::CompressedTexture2D/CompressedTexture2D::6501289520658281735::1759066018::1759066018::1::::<><><>0<>0<>02ac4a3edaa8c51e39b8e238fb3f85d6<>res://.godot/imported/pixel heart empty.png-a5c61b1e9c7b5775db3a74bdeec1a57e.ctex::
+Pixel Heart Sprite Sheet 16x16.png::CompressedTexture2D/CompressedTexture2D::8892465011580168558::1759066018::1759066018::1::::<><><>0<>0<>27f8848cedb667f0e0e42549b4399f82<>res://.godot/imported/Pixel Heart Sprite Sheet 16x16.png-423fd02fe46ae987ead9cb925cfdb565.ctex::
+Solid_red.png::CompressedTexture2D/CompressedTexture2D::1938866935374798114::1759073152::1759073152::1::::<><><>0<>0<>32a18dc6eca5230008e56e7627674fd7<>res://.godot/imported/Solid_red.png-0861d989f9e9bdba84bef3b8363b1bc4.ctex::
+Spike.gd::GDScript/GDScript::981790176496125559::1759072774::0::1::::<>Area2D<><>0<>0<><>::

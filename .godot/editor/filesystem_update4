@@ -1,6 +1,2 @@
 res://Level.tscn
-<<<<<<< Updated upstream
-res://Spike.gd
-=======
->>>>>>> Stashed changes
 res://CharacterBody2D.gd

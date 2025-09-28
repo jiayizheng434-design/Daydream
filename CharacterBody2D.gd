@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 const SPEED := 900.0
 const JUMP_VELOCITY := -900.0
-var gravity := ProjectSettings.get_setting("physics/2d/default_gravity")
+var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 var hearts_list: Array = []
 var health: int = 3
@@ -44,3 +44,5 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED * delta)
 
 	move_and_slide()
+	
+	
