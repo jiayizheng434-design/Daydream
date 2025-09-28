@@ -1,9 +1,6 @@
 2a60927148abd1d33b818b535e306557
-::res://::1759056228
-877.jpg::CompressedTexture2D::8440823220337934774::1759055848::1759055890::1::::<><>::
+::res://::1759059585
+CharacterBody2D.gd::GDScript::-1::1759057142::0::1::::<>CharacterBody2D<>::
 green.png::CompressedTexture2D::4330964426198737398::1758471301::1759056242::1::::<><>::
 icon.svg::CompressedTexture2D::9196418169622692181::1759052724::1759054342::1::::<><>::
-Level.tscn::PackedScene::1872875701070723461::1759056205::0::1::::<><>::uid://d4a2wtfyi1ixx
-::res://cartoon-style-stone-texture/::1759055885
-License free.txt::TextFile::-1::1759055849::0::1::::<><>::
-License premium.txt::TextFile::-1::1759055849::0::1::::<><>::
+Level.tscn::PackedScene::1872875701070723461::1759059568::0::1::::<><>::uid://d4a2wtfyi1ixx<>res://CharacterBody2D.gd<>uid://b2x7l7e8gcqbe
