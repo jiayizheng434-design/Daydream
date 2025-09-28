@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://1xh8vqgh2yin"]
+[gd_scene load_steps=9 format=3 uid="uid://1xh8vqgh2yin"]
 
 [ext_resource type="Texture2D" uid="uid://d4a2wtfyi1ixx" path="res://icon.svg" id="1_nf77y"]
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_rq8wq"]
@@ -699,6 +699,9 @@ sources/0 = SubResource("TileSetAtlasSource_3wvdq")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cp8t7"]
 size = Vector2(86.5625, 90.1875)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_351gf"]
+size = Vector2(131, 139)
+
 [node name="Level" type="Node2D"]
 position = Vector2(7389, 10588)
 
@@ -749,3 +752,14 @@ expand_mode = 3
 
 [node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
 follow_viewport_enabled = true
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(506, -446)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0.5, 2)
+shape = SubResource("RectangleShape2D_351gf")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+position = Vector2(3, 2)
+texture = ExtResource("1_nf77y")

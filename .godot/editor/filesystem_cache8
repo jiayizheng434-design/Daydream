@@ -1,8 +1,8 @@
 2a60927148abd1d33b818b535e306557
-::res://::1759067793
-CharacterBody2D.gd::GDScript::-1::1759067750::0::1::::<>CharacterBody2D<>::
+::res://::1759069722
+CharacterBody2D.gd::GDScript::-1::1759069585::0::1::::<>CharacterBody2D<>::
 green.png::CompressedTexture2D::4330964426198737398::1759067750::1759067750::1::::<><>::
 icon.svg::CompressedTexture2D::9196418169622692181::1759067750::1759067750::1::::<><>::
-Level.tscn::PackedScene::1872875701070723461::1759067750::0::1::::<><>::uid://d4a2wtfyi1ixx<>uid://davunri56lmdh<>uid://b2x7l7e8gcqbe<>uid://dyxtuncev2wos
+Level.tscn::PackedScene::1872875701070723461::1759069710::0::1::::<><>::uid://d4a2wtfyi1ixx<>res://CharacterBody2D.gd<>uid://b2x7l7e8gcqbe<>uid://dyxtuncev2wos
 pixel heart empty.png::CompressedTexture2D::6501289520658281735::1759067750::1759067750::1::::<><>::
 Pixel Heart Sprite Sheet 16x16.png::CompressedTexture2D::8892465011580168558::1759067750::1759067750::1::::<><>::
