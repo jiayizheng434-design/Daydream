@@ -729,12 +729,12 @@ position_smoothing_speed = 6.0
 [node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CharacterBody2D/CanvasLayer"]
-offset_left = 7412.0
-offset_top = 5148.0
-offset_right = 17279.0
-offset_bottom = 8437.0
+offset_left = 6557.0
+offset_top = 9310.0
+offset_right = 7166.0
+offset_bottom = 9919.0
 
-[node name="TextureRect" type="TextureRect" parent="CharacterBody2D/CanvasLayer/HBoxContainer"]
+[node name="Heart" type="TextureRect" parent="CharacterBody2D/CanvasLayer/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("4_glt7j")
 expand_mode = 3
