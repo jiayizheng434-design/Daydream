@@ -7,14 +7,7 @@ const JUMP_VELOCITY = -900.0
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-var heartslist : Array[TextureRect]
-var health = 3
 
-func _ready() -> void:
-	var hearts_parent = $HBoxContainerhearts_parent
-	for childs in hearts_parent.get_children()
-		heartslist.append(child)
-	print(heartslist)
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
