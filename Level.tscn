@@ -384,16 +384,16 @@ position = Vector2(48, 158)
 position_smoothing_enabled = true
 position_smoothing_speed = 6.0
 
-[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
-follow_viewport_enabled = true
+[node name="HBoxContainer" type="HBoxContainer" parent="CharacterBody2D"]
+offset_left = -12.0
+offset_top = -55.0
+offset_right = 113.0
+offset_bottom = 66.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CharacterBody2D/CanvasLayer"]
-offset_left = 7476.0
-offset_top = 10683.0
-offset_right = 7601.0
-offset_bottom = 10804.0
-
-[node name="Heart" type="TextureRect" parent="CharacterBody2D/CanvasLayer/HBoxContainer"]
+[node name="Heart" type="TextureRect" parent="CharacterBody2D/HBoxContainer"]
 layout_mode = 2
 texture = ExtResource("4_glt7j")
 expand_mode = 3
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
+follow_viewport_enabled = true
