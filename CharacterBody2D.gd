@@ -8,6 +8,55 @@ const JUMP_VELOCITY = -900.0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 
+var hearts_list : Array[TextureRect]
+var health = 3
+
+func _ready() -> void:
+	var hearts_parent = $HBoxContainer
+	for child in hearts_parent.get_children():
+		hearts_list.append(child)
+	print(hearts_list)
+	
+func take_damage():
+	if health > 0:
+		health -= 1
+		update_heart_display()
+		
+func update_heart_display():
+	for i in range (hearts_list.size()):
+		hearts_list[i].visible = i < health
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
