@@ -699,6 +699,14 @@ sources/0 = SubResource("TileSetAtlasSource_3wvdq")
 size = Vector2(86.5625, 90.1875)
 
 [node name="Level" type="Node2D"]
+position = Vector2(7389, 10588)
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(25, 25)
+tile_set = SubResource("TileSet_2or5x")
+format = 2
+layer_0/tile_data = PackedInt32Array(9962042, 0, 0, 9175221, 0, 0, 65536, 0, 0, 131071, 0, 0, 65537, 65536, 1, 65538, 65536, 1, 2, 65536, 1)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("1_rq8wq")
@@ -708,16 +716,11 @@ position = Vector2(51, 154)
 scale = Vector2(0.6875, 0.726562)
 texture = ExtResource("1_nf77y")
 
-[node name="TileMap" type="TileMap" parent="CharacterBody2D"]
-position = Vector2(0, -1)
-scale = Vector2(25, 25)
-tile_set = SubResource("TileSet_2or5x")
-format = 2
-layer_0/tile_data = PackedInt32Array(9962042, 0, 0, 9175221, 0, 0, 65536, 0, 0, 131071, 0, 0)
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(51.7188, 152.906)
 shape = SubResource("RectangleShape2D_cp8t7")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(48, 158)
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0
