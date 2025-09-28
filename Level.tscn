@@ -361,7 +361,7 @@ size = Vector2(86.5625, 90.1875)
 position = Vector2(7389, 10588)
 
 [node name="TileMap" type="TileMap" parent="."]
-position = Vector2(0, -1)
+position = Vector2(-1, -2)
 scale = Vector2(25, 25)
 tile_set = SubResource("TileSet_2or5x")
 format = 2
