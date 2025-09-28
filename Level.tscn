@@ -729,10 +729,10 @@ position_smoothing_speed = 6.0
 [node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CharacterBody2D/CanvasLayer"]
-offset_left = 6557.0
-offset_top = 9310.0
-offset_right = 7166.0
-offset_bottom = 9919.0
+offset_left = 7515.0
+offset_top = 10464.0
+offset_right = 7640.0
+offset_bottom = 10585.0
 
 [node name="Heart" type="TextureRect" parent="CharacterBody2D/CanvasLayer/HBoxContainer"]
 layout_mode = 2
