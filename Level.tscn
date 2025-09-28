@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://1xh8vqgh2yin"]
+[gd_scene load_steps=8 format=3 uid="uid://1xh8vqgh2yin"]
 
 [ext_resource type="Texture2D" uid="uid://d4a2wtfyi1ixx" path="res://icon.svg" id="1_nf77y"]
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_rq8wq"]
 [ext_resource type="Texture2D" uid="uid://b2x7l7e8gcqbe" path="res://green.png" id="3_ki0r8"]
+[ext_resource type="Texture2D" uid="uid://dyxtuncev2wos" path="res://Pixel Heart Sprite Sheet 16x16.png" id="4_glt7j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3wvdq"]
 texture = ExtResource("3_ki0r8")
@@ -724,3 +725,16 @@ shape = SubResource("RectangleShape2D_cp8t7")
 position = Vector2(48, 158)
 position_smoothing_enabled = true
 position_smoothing_speed = 6.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody2D"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CharacterBody2D/CanvasLayer"]
+offset_left = 7412.0
+offset_top = 5148.0
+offset_right = 17279.0
+offset_bottom = 8437.0
+
+[node name="TextureRect" type="TextureRect" parent="CharacterBody2D/CanvasLayer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("4_glt7j")
+expand_mode = 3
